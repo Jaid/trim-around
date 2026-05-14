@@ -23,5 +23,8 @@
     "typescript": "^6.0.3"
   },
   "funding": "https://github.com/sponsors/Jaid",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "bun test --max-concurrency 1 ./test"
+  }
 }
